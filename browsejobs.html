@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
   <head>
     <meta charset="utf-8">
     <title>CreativConnect</title>
@@ -23,12 +23,8 @@
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <script type="text/javascript" src="libs/angular.min.js"></script>
+        <script type="text/javascript" src="js/controller.js"></script>
   </head>
 
   <body>
@@ -77,9 +73,9 @@
   
   
     
-          <div class="row">
+          <div class="row" ng-controller="clientController">
          
-            <ul class="job">
+            <ul class="job" ng-repeat="clients in businessinfo">
                 <li class="job-views">
                     <img src="images/icon-views.png">
                     <h4>204</h4>
@@ -89,108 +85,11 @@
                     <p>In need of Wordpress Design for bakery.</p>
                 </li>
                 <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
+                    <h4>{{clients.name}}</h4>
+                    <h5>{{clients.city}}{{clients.state}}</h5>
                 </li>
             </ul>
-              <ul class="job">
-                <li class="job-views">
-                    <img src="images/icon-views.png">
-                    <h4>204</h4>
-                </li>
-                <li class="job-info">
-                    <h4>Wordpress Design</h4>
-                    <p>In need of Wordpress Design for bakery.</p>
-                </li>
-                <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
-                </li>
-            </ul>
-              <ul class="job">
-                <li class="job-views">
-                    <img src="images/icon-views.png">
-                    <h4>204</h4>
-                </li>
-                <li class="job-info">
-                    <h4>Wordpress Design</h4>
-                    <p>In need of Wordpress Design for bakery.</p>
-                </li>
-                <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
-                </li>
-            </ul>
-              <ul class="job">
-                <li class="job-views">
-                    <img src="images/icon-views.png">
-                    <h4>204</h4>
-                </li>
-                <li class="job-info">
-                    <h4>Wordpress Design</h4>
-                    <p>In need of Wordpress Design for bakery.</p>
-                </li>
-                <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
-                </li>
-            </ul>
-              <ul class="job">
-                <li class="job-views">
-                    <img src="images/icon-views.png">
-                    <h4>204</h4>
-                </li>
-                <li class="job-info">
-                    <h4>Wordpress Design</h4>
-                    <p>In need of Wordpress Design for bakery.</p>
-                </li>
-                <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
-                </li>
-            </ul>
-              <ul class="job">
-                <li class="job-views">
-                    <img src="images/icon-views.png">
-                    <h4>204</h4>
-                </li>
-                <li class="job-info">
-                    <h4>Wordpress Design</h4>
-                    <p>In need of Wordpress Design for bakery.</p>
-                </li>
-                <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
-                </li>
-            </ul>
-              <ul class="job">
-                <li class="job-views">
-                    <img src="images/icon-views.png">
-                    <h4>204</h4>
-                </li>
-                <li class="job-info">
-                    <h4>Wordpress Design</h4>
-                    <p>In need of Wordpress Design for bakery.</p>
-                </li>
-                <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
-                </li>
-            </ul>
-              <ul class="job">
-                <li class="job-views">
-                    <img src="images/icon-views.png">
-                    <h4>204</h4>
-                </li>
-                <li class="job-info">
-                    <h4>Wordpress Design</h4>
-                    <p>In need of Wordpress Design for bakery.</p>
-                </li>
-                <li class="job-location"> 
-                    <h4>Bobs Doughnuts</h4>
-                    <h5>DETROIT, MI</h5>
-                </li>
-            </ul>
+              
           </div>
       
       
@@ -206,22 +105,7 @@
 
     </div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
+   
 
   </body>
 </html>

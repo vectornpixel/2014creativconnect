@@ -1,0 +1,17 @@
+[{
+    "username": "eyce",
+    "firstname": "Asim",
+    "lastname": "Craft",
+    "email": "info@useremail.com",
+    "skills": ["Web Design", "Graphic Design"],
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod nisi ut tortor varius, vel sagittis nunc fermentum. Morbi ac posuere ipsum."
+
+}, {
+    "username": "timb",
+    "firstname": "tom",
+    "lastname": "Craft",
+    "email": "info2@useremail.com",
+    "skills": ["Logo Design", "Graphic Design"],
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod nisi ut tortor varius, vel sagittis nunc fermentum. Morbi ac posuere ipsum."
+
+}]
