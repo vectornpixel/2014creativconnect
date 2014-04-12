@@ -1,0 +1,53 @@
+[{
+    "userId": "kanvazkid",
+    "username": "kanvazkid",
+    "city": "Detroit",
+    "state": "MI",
+    "profilepic": "me",
+    "projectscompleted": "17",
+    "pageviews": "2",
+    "services": [
+        "Web Design",
+        "Graphic",
+        "Logo"
+    ]
+}, {
+    "userId": "icekr3am",
+    "username": "icekr3am",
+    "city": "Detroit",
+    "state": "MI",
+    "profilepic": "me",
+    "projectscompleted": "8",
+    "pageviews": "12",
+    "services": [
+        "Web Design",
+        "Graphic",
+        "Logo"
+    ]
+}, {
+    "userId": "ballinice",
+    "username": "ballinice",
+    "city": "Detroit",
+    "state": "MI",
+    "profilepic": "me",
+    "projectscompleted": "10",
+    "pageviews": "7",
+    "services": [
+        "Web Design",
+        "Graphic",
+        "Logo"
+    ]
+}, {
+    "userId": "linkz",
+    "username": "linkz",
+    "city": "Detroit",
+    "state": "MI",
+    "profilepic": "me",
+    "projectscompleted": "20",
+    "pageviews": "30",
+    "services": [
+        "Web Design",
+        "Graphic",
+        "Logo"
+    ]
+}]

@@ -18,11 +18,11 @@
                  </div>
             </div>
             <div class="userbio">
-                <h2>Asim Craft</h5>
-                <h5>Detroit, MI</h3>
-                <a href="#">vectornpixel.com</a>
-                <p><b>Experience: </b>Web Design, Graphic Design</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut augue vitae quam vehicula tincidunt. Integer dictum condimentum arcu at pellentesque.</p>
+                <h2>{{userinfo.username}}</h5>
+                <h5>{{userinfo.city}}{{userinfo.state}}</h3>
+                <a href="#">{{userinfo.website}}</a>
+                <p><b>Experience: </b>{{userinfo.services}}</p>
+                <p>{{userinfo.bio}}/p>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -136,3 +136,7 @@
         </div>
           
       </div>
+
+
+    </div> <!-- /container -->
+

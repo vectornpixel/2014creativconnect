@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html lang="en" ng-app="myApp">
+>
     <head>
     <meta charset="utf-8">
     <title>CreativConnect</title>
@@ -22,7 +22,9 @@
     <![endif]-->
     <!-- Fav and touch icons -->
    <script type="text/javascript" src="libs/angular.min.js"></script>
-        <script type="text/javascript" src="js/controller.js"></script>
+   <script type="text/javascript" src="js/app.js"></script>
+   <script type="text/javascript" src="js/angular-route.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
   </head>
     <body>
       <div class="navbar navbar-inverse navbar-fixed-top">
@@ -74,7 +76,7 @@
         </ul>
         
         
-          <div class="row offsetbottom"  ng-controller="userController">
+          <div class="row offsetbottom" >
             <div class="span4"  ng-repeat="user in userinfo">
               <div class="item">
                 <div class="thumb">
@@ -99,10 +101,11 @@
         </div>
        
         <hr>
+        </div> 
           <footer>
           <p>&copy; Company 2013</p>
         </footer>
-        </div> <!-- /container -->
+        <!-- /container -->
         <!-- Le javascript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
