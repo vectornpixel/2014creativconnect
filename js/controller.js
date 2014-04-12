@@ -5,7 +5,7 @@ var UsersControllers = angular.module('UsersControllers', []);
 
 UsersControllers.controller('ViewUsersController', ['$scope', '$http',
     function($scope, $http) {
-        $http.get('js/models/users.json').success(function(data) {
+        $http.get('js/data/users.json').success(function(data) {
             $scope.usersinfo = data;
         });
     }
@@ -15,7 +15,7 @@ UsersControllers.controller('ViewUsersController', ['$scope', '$http',
 // Declare View User Porfile Controller
 UsersControllers.controller('UserProfileController', ['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http) {
-        $http.get('js/models/users/' + $routeParams.userId + '.json').success(function(data) {
+        $http.get('js/data/users/' + $routeParams.userId + '.json').success(function(data) {
             $scope.userinfo = data;
         });
 
@@ -25,13 +25,13 @@ UsersControllers.controller('UserProfileController', ['$scope', '$routeParams', 
 /*******************************************/
 
 //Create Businesses Controller
-var BusinessesControllers = angular.module('BusinessesControllers', []);
+var BusinessControllers = angular.module('BusinessControllers', []);
 
 // Declare View Businesses Controller
 
-BusinessesControllers.controller('ViewBusinessesController', ['$scope', '$http',
+BusinessControllers.controller('ViewBusinessController', ['$scope', '$http',
     function($scope, $http) {
-        $http.get('js/models/businesses.json').success(function(data) {
+        $http.get('js/data/businesses.json').success(function(data) {
             $scope.clientsinfo = data;
         });
     }
@@ -39,10 +39,10 @@ BusinessesControllers.controller('ViewBusinessesController', ['$scope', '$http',
 ]);
 
 // Declare View Businesses Profile Controller
-BusinessesControllers.controller('BusinessProfileController', ['$scope', '$routeParams', '$http',
+BusinessControllers.controller('BusinessProfileController', ['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http) {
-        $http.get('js/models/clients/' + $routeParams.businessId + '.json').success(function(data) {
-            $scope.client = data;
+        $http.get('js/data/clients/' + $routeParams.businessId + '.json').success(function(data) {
+            $scope.clientinfo = data;
         });
 
     }

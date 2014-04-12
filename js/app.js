@@ -3,7 +3,7 @@
 var myApp = angular.module('myApp', [
     'ngRoute',
     'UsersControllers',
-    'BusinessesControllers',
+    'BusinessControllers',
     'ProjectsControllers'
 ]);
 
@@ -24,7 +24,7 @@ myApp.config(['$routeProvider',
         }).
         when('/business', {
             templateUrl: 'business-view.html',
-            controller: 'ViewBusinessesController'
+            controller: 'ViewBusinessController'
         }).
         when('/business/:businessId', {
             templateUrl: 'business-details.html',

@@ -1,5 +1,5 @@
 [{
-    "id": "bobspizza",
+    "businessId": "bobspizza",
     "businessname": "Bobs Pizza",
     "city": "Miami",
     "state": "FL",
@@ -11,15 +11,14 @@
         "Yummy"
     ]
 }, {
-    "id": "bobspizza",
-    "businessname": "Bobs Pizza",
-    "city": "Miami",
-    "state": "FL",
-    "website": "www.bobspizza.com",
+    "businessId": "naughtydog",
+    "businessname": "Naughty Dog",
+    "city": "Los Angeles",
+    "state": "CA",
+    "website": "www.naughtydog.com",
     "profilepic": "",
     "categories": [
-        "Food",
-        "Pizza",
-        "Yummy"
+        "Video Games",
+        "Games"
     ]
 }]
