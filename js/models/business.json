@@ -1,19 +1,19 @@
 {
-"id":"",
-"username":"",
-"businessname":"",
-"email":"",
-"password":"",
-"city":"",
-"state":"",
-"description":"",
-"website":"",
-"profilepic":"",
-"projects":"",
-"categories": [
-			"",
-			"",
-			""
-			],
+    "id": "bobspizza",
+    "username": "bobspizza",
+    "businessname": "Bobs Pizza",
+    "email": "bobspizze@gmail.com",
+    "password": "",
+    "city": "",
+    "state": "",
+    "description": "",
+    "website": "",
+    "profilepic": "",
+    "projects": "",
+    "categories": [
+        "",
+        "",
+        ""
+    ],
 
 }

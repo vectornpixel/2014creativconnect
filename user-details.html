@@ -21,7 +21,8 @@
                 <h2>{{userinfo.username}}</h5>
                 <h5>{{userinfo.city}}{{userinfo.state}}</h3>
                 <a href="#">{{userinfo.website}}</a>
-                <p><b>Experience: </b>{{userinfo.services}}</p>
+                <p><b>Experience: </b></p>
+                <li ng-repeat="service in userinfo.services">{{service}}</li>
                 <p>{{userinfo.bio}}/p>
             </div>
         </div>
@@ -38,104 +39,22 @@
             </ul>
    <div class="clearfix"></div>
       
-      <div class="row offsetbottom">
-        <div class="span4">
+      <div class="row offsetbottom" >
+        <div class="span4" ng-repeat="user in userinfo.portfolio">
           <div class="item">
             <div class="thumb">
                 <img src="images/holder-item.jpg">
             <div class="info">
-                <h3>Logo Design</h3>
+                <h3>{{user}}</h3>
             </div>
             </div>
     
        </div>
         </div>
-          <div class="span4">
-          <div class="item">
-        <div class="thumb">
-            <img src="images/holder-item.jpg">
-        <div class="info">
-            <h3>Logo Design</h3>
-        </div>
-        </div>
-   
-       </div>
-        </div>
-          <div class="span4">
-          <div class="item">
-        <div class="thumb">
-            <img src="images/holder-item.jpg">
-        <div class="info">
-            <h3>Logo Design</h3>
-        </div>
-        </div>
-   
-       </div>
-        </div>
-          
-          <div class="span4">
-          <div class="item">
-        <div class="thumb">
-            <img src="images/holder-item.jpg">
-        <div class="info">
-            <h3>Logo Design</h3>
-        </div>
-        </div>
-   
-       </div>
-        </div>
-        
+
+
       </div>
-      
-      
-      <div class="row">
-        <div class="span4">
-          <div class="item">
-            <div class="thumb">
-                <img src="images/holder-item.jpg">
-            <div class="info">
-                <h3>Logo Design</h3>
-            </div>
-            </div>
-    
-       </div>
-        </div>
-          <div class="span4">
-          <div class="item">
-        <div class="thumb">
-            <img src="images/holder-item.jpg">
-        <div class="info">
-            <h3>Logo Design</h3>
-        </div>
-        </div>
-   
-       </div>
-        </div>
-          <div class="span4">
-          <div class="item">
-        <div class="thumb">
-            <img src="images/holder-item.jpg">
-        <div class="info">
-            <h3>Logo Design</h3>
-        </div>
-        </div>
-    
-       </div>
-        </div>
-          
-          <div class="span4">
-          <div class="item">
-        <div class="thumb">
-            <img src="images/holder-item.jpg">
-        <div class="info">
-            <h3>Logo Design</h3>
-        </div>
-        </div>
-      
-       </div>
-        </div>
-          
-      </div>
+
 
 
     </div> <!-- /container -->

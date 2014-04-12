@@ -1,15 +1,25 @@
-[
-{
-"id":"",
-"businessname":"",
-"city":"",
-"state":"",
-"website":"",
-"profilepic":"",
-"categories": [
-			"",
-			"",
-			""
-			],
-}
-]
+[{
+    "id": "bobspizza",
+    "businessname": "Bobs Pizza",
+    "city": "Miami",
+    "state": "FL",
+    "website": "www.bobspizza.com",
+    "profilepic": "",
+    "categories": [
+        "Food",
+        "Pizza",
+        "Yummy"
+    ]
+}, {
+    "id": "bobspizza",
+    "businessname": "Bobs Pizza",
+    "city": "Miami",
+    "state": "FL",
+    "website": "www.bobspizza.com",
+    "profilepic": "",
+    "categories": [
+        "Food",
+        "Pizza",
+        "Yummy"
+    ]
+}]

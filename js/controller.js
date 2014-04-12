@@ -31,8 +31,8 @@ var BusinessesControllers = angular.module('BusinessesControllers', []);
 
 BusinessesControllers.controller('ViewBusinessesController', ['$scope', '$http',
     function($scope, $http) {
-        $http.get('js/businesses.json').success(function(data) {
-            $scope.businesses = data;
+        $http.get('js/models/businesses.json').success(function(data) {
+            $scope.clientsinfo = data;
         });
     }
 
@@ -41,8 +41,8 @@ BusinessesControllers.controller('ViewBusinessesController', ['$scope', '$http',
 // Declare View Businesses Profile Controller
 BusinessesControllers.controller('BusinessProfileController', ['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http) {
-        $http.get('js/models/' + $routeParams.businessId + '.json').success(function(data) {
-            $scope.business = data;
+        $http.get('js/models/clients/' + $routeParams.businessId + '.json').success(function(data) {
+            $scope.client = data;
         });
 
     }

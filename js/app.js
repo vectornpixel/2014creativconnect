@@ -24,11 +24,11 @@ myApp.config(['$routeProvider',
         }).
         when('/business', {
             templateUrl: 'business-view.html',
-            controller: 'BusinessesControllers'
+            controller: 'ViewBusinessesController'
         }).
         when('/business/:businessId', {
             templateUrl: 'business-details.html',
-            controller: 'BusinessesControllers'
+            controller: 'BusinessProfileController'
         }).
         when('/projects', {
             templateUrl: 'projects-view.html',

@@ -16,9 +16,9 @@
     "pageviews": "",
     "endorsements": "",
     "portfolio": {
-        "category": "filename/jpg",
-        "category": "filename/jpg",
-        "category": "filename/jpg"
+        "Logo Design": "filename.jpg",
+        "UX Design": "filename.jpg",
+        "Javascript": "filename.jpg"
     },
     "services": [
         "Web Design",
