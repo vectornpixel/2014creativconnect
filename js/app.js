@@ -4,7 +4,8 @@ var myApp = angular.module('myApp', [
     'ngRoute',
     'UsersControllers',
     'BusinessControllers',
-    'ProjectsControllers'
+    'ProjectsControllers',
+    'SettingsControllers'
 ]);
 
 /*
@@ -31,8 +32,16 @@ myApp.config(['$routeProvider',
             controller: 'BusinessProfileController'
         }).
         when('/projects', {
-            templateUrl: 'projects-view.html',
-            controller: 'ProjectsControllers'
+            templateUrl: 'jobs-view.html',
+            controller: 'ViewProjectsController'
+        }).
+        when('/projects/:businessId/:projectId', {
+            templateUrl: 'business-details.html',
+            controller: 'ViewProjectController'
+        }).
+        when('/settings', {
+            templateUrl: 'settings-view.html',
+            controller: 'ViewSettingsController'
         }).otherwise({
             redirectTo: '/users'
         });

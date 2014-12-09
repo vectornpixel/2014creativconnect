@@ -9,6 +9,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut augue vitae quam vehicula tincidunt. Integer dictum condimentum arcu at pellentesque.",
     "website": "www.bobspizza.com",
     "profilepic": "",
+    "pageviews": "25",
     "projects": [{
         "service": "wordpress",
         "description": "In need of Wordpress Design for bakery."

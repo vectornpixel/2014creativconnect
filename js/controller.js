@@ -57,9 +57,42 @@ var ProjectsControllers = angular.module('ProjectsControllers', []);
 
 ProjectsControllers.controller('ViewProjectsController', ['$scope', '$http',
     function($scope, $http) {
-        $http.get('js/projects.json').success(function(data) {
-            $scope.projects = data;
+        $http.get('js/data/projects.json').success(function(data) {
+            $scope.projectsinfo = data;
         });
     }
 
+]);
+
+ProjectsControllers.controller('ViewProjectController', ['$scope', '$routeParams', '$http',
+    function($scope, $routeParams, $http) {
+        $http.get('js/data/clients/projects' + $routeParams.businessId + '-project.json').success(function(data) {
+            $scope.projectinfo = data;
+        });
+
+    }
+]);
+/*******************************************/
+
+//Create Settings Controller
+var SettingsControllers = angular.module('SettingsControllers', []);
+
+// Declare View Projects Controller
+
+SettingsControllers.controller('ViewSettingsController', ['$scope', '$http',
+    function($scope, $http) {
+        $http.get('js/data/projects.json').success(function(data) {
+            $scope.projectsinfo = data;
+        });
+    }
+
+]);
+
+SettingsControllers.controller('ViewSettingsController', ['$scope', '$routeParams', '$http',
+    function($scope, $routeParams, $http) {
+        $http.get('js/data/clients/projects' + $routeParams.businessId + '-project.json').success(function(data) {
+            $scope.projectinfo = data;
+        });
+
+    }
 ]);

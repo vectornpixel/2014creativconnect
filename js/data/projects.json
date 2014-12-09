@@ -1,15 +1,33 @@
 [{
 
-"id":"",
-"projectname":"",
-"businessname":"",
-"city":"",
-"state":"",
-"price":"",
-"duedate":"",
-"categories": [
-			"",
-			"",
-			""
-			]
+    "projectId": "bobsproj1",
+    "businessId": "bobspizza",
+    "projectname": "Bobs Pizza Redesign",
+    "businessname": "Bobs Pizza",
+    "city": "Miami",
+    "state": "FL",
+    "pageviews": "25",
+    "price": "300",
+    "openings": 10,
+    "projects": {
+        "service": "Wordpress",
+        "description": "In need of Wordpress Design for bakery."
+    },
+    "duedate": "5"
+}, {
+
+    "projectId": "bobsproj2",
+    "businessId": "bobspizza",
+    "projectname": "Bobs Pizza Redesign",
+    "businessname": "Auto Dealer",
+    "city": "Detroit",
+    "state": "MI",
+    "pageviews": "25",
+    "price": "300",
+    "openings": 10,
+    "projects": {
+        "service": "HTML",
+        "description": "In need of Wordpress Design for bakery."
+    },
+    "duedate": "5"
 }]

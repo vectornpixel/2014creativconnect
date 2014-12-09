@@ -18,12 +18,12 @@
                  </div>
             </div>
             <div class="userbio">
-                <h2>{{userinfo.username}}</h5>
-                <h5>{{userinfo.city}}{{userinfo.state}}</h3>
+                <h2>{{userinfo.username}}</h2>
+                <h5>{{userinfo.city}}{{userinfo.state}}</h5>
                 <a href="#">{{userinfo.website}}</a>
                 <p><b>Experience: </b></p>
                 <li ng-repeat="service in userinfo.services">{{service}}</li>
-                <p>{{userinfo.bio}}/p>
+                <p>{{userinfo.bio}}</p>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -40,7 +40,7 @@
    <div class="clearfix"></div>
       
       <div class="row offsetbottom" >
-        <div class="span4" ng-repeat="user in userinfo.portfolio">
+        <div class="col-md-3" ng-repeat="user in userinfo.portfolio">
           <div class="item">
             <div class="thumb">
                 <img src="images/holder-item.jpg">
