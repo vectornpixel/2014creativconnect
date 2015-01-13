@@ -1,11 +1,7 @@
 //App Module
 
 var myApp = angular.module('myApp', [
-    'ngRoute',
-    'UsersControllers',
-    'BusinessControllers',
-    'ProjectsControllers',
-    'SettingsControllers'
+    'ngRoute'
 ]);
 
 /*
@@ -16,7 +12,7 @@ myApp.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
         when('/users', {
-            templateUrl: 'users-view.html',
+            templateUrl: 'app/views/users-view.html',
             controller: 'ViewUsersController'
         }).
         when('/users/:userId', {

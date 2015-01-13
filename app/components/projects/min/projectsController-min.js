@@ -1,0 +1,1 @@
+ProjectsControllers.controller("ViewProjectsController",["$scope","$http",function(o,t){t.get("app/data/projects.json").success(function(t){o.projectsinfo=t})}]),ProjectsControllers.controller("ViewProjectController",["$scope","$routeParams","$http",function(o,t,e){e.get("app/data/clients/projects"+t.businessId+"-project.json").success(function(t){o.projectinfo=t})}]);

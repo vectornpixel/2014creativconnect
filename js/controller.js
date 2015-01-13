@@ -48,6 +48,7 @@ BusinessControllers.controller('BusinessProfileController', ['$scope', '$routePa
     }
 ]);
 
+
 /*******************************************/
 
 //Create Projects Controller
@@ -78,7 +79,6 @@ ProjectsControllers.controller('ViewProjectController', ['$scope', '$routeParams
 var SettingsControllers = angular.module('SettingsControllers', []);
 
 // Declare View Projects Controller
-
 SettingsControllers.controller('ViewSettingsController', ['$scope', '$http',
     function($scope, $http) {
         $http.get('js/data/projects.json').success(function(data) {
