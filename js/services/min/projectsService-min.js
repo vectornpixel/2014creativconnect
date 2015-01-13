@@ -1,1 +1,1 @@
-myApp.factory("ProjectData",function(t){return t.get("js/models/projects.json")});
+myApp.factory("ProjectData",function(s){return s.get("js/models/projects.json")}),myApp.factory("BusinessData",function(s){return s.get("js/models/businesses.json")});

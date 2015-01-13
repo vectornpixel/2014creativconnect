@@ -21,7 +21,7 @@ myApp.config(['$routeProvider',
         }).
         when('/business', {
             templateUrl: 'business-view.html',
-            controller: 'ViewBusinessController'
+            controller: 'BusinessController'
         }).
         when('/business/:businessId', {
             templateUrl: 'business-details.html',

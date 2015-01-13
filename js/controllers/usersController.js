@@ -33,21 +33,29 @@ myApp.controller('UserProfileController', ['$scope', '$routeParams', '$http',
 
 // Declare View Businesses Controller
 
-myApp.controller('ViewBusinessController', ['$scope', '$http',
-    function($scope, $http) {
-        $http.get('js/models/businesses.json').success(function(data) {
-            $scope.clientsinfo = data;
-        });
-    }
+myApp.controller("BusinessController", function($scope,BusinessData){
 
-]);
+    BusinessData.success(function(data) {
+        $scope.clientsinfo = data;
+    });
+
+
+});
+// Declare View Businesses Profile Controller
+myApp.controller('BusinessProfileController', function($scope, $routeParams, $http) {
+
+        $http.get('js/models/clients/' + $routeParams.businessId + '.json').success(function(data) {
+            $scope.clientinfo = data;
+        });
+
+    });
 
 // Declare View Businesses Profile Controller
-myApp.controller('BusinessProfileController', ['$scope', '$routeParams', '$http',
+/*myApp.controller('BusinessProfileController', ['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http) {
         $http.get('js/models/clients/' + $routeParams.businessId + '.json').success(function(data) {
             $scope.clientinfo = data;
         });
 
     }
-]);
+]);*/

@@ -2,53 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6364321d-2f2b-46df-abba-6f8dc1c93071" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/jobs-view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/models/projects.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/usersService.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/profiles/min/profilesController-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/profiles/profilesController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/projects/min/projectsController-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/projects/projectsController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/projects/projectsService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/data/business.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/data/projects.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/min/app-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jobs-view.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jquery-1.10.2.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/angular-route.js" afterPath="$PROJECT_DIR$/js/lib/angular-route.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/angular.js" afterPath="$PROJECT_DIR$/js/lib/angular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/angular.min.js" afterPath="$PROJECT_DIR$/js/lib/angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/components/profiles/profilesService.js" afterPath="$PROJECT_DIR$/js/services/profilesService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/businesses.json" afterPath="$PROJECT_DIR$/js/models/businesses.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/clients/bobspizza.json" afterPath="$PROJECT_DIR$/js/models/clients/bobspizza.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/clients/projects/bobspizza-project.json" afterPath="$PROJECT_DIR$/js/models/clients/projects/bobspizza-project.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/project.json" afterPath="$PROJECT_DIR$/js/models/project.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/users.json" afterPath="$PROJECT_DIR$/js/models/users.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/users/kanvazkid.json" afterPath="$PROJECT_DIR$/js/models/users/kanvazkid.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/data/users/user.json" afterPath="$PROJECT_DIR$/js/models/users/user.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/users-view.html" afterPath="$PROJECT_DIR$/views/users-view.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/images/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/images/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/js/lib/bootstrap-scrollspy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/lib/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/lib/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controller.js" afterPath="$PROJECT_DIR$/js/lib/controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/html5shiv.js" afterPath="$PROJECT_DIR$/js/lib/html5shiv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="$PROJECT_DIR$/js/lib/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/lib/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/settings-view.html" afterPath="$PROJECT_DIR$/views/settings-view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/_forms.less" afterPath="$PROJECT_DIR$/css/components/_forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/components/_jobitems.less" afterPath="$PROJECT_DIR$/css/components/_jobitems.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/businessbackend.html" afterPath="$PROJECT_DIR$/businessbackend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designerbackend.html" afterPath="$PROJECT_DIR$/designerbackend.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/global.less" afterPath="$PROJECT_DIR$/css/global.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index2.html" afterPath="$PROJECT_DIR$/index2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.less" afterPath="$PROJECT_DIR$/css/styles.less" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/models/project.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/min/app-min.js" afterPath="$PROJECT_DIR$/js/min/app-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/models/businesses.json" afterPath="$PROJECT_DIR$/js/models/businesses.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/min/projectsService-min.js" afterPath="$PROJECT_DIR$/js/services/min/projectsService-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/min/usersController-min.js" afterPath="$PROJECT_DIR$/js/controllers/min/usersController-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/usersController.js" afterPath="$PROJECT_DIR$/js/controllers/usersController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/usersService.js" afterPath="$PROJECT_DIR$/js/services/usersService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="creativconnect.iws" />
@@ -84,30 +45,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usersService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/services/usersService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="usersController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/controllers/usersController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09394572" vertical-offset="0" max-vertical-offset="958">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43841335" vertical-offset="0" max-vertical-offset="990">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/models/projects.json">
+      <file leaf-file-name="business-details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="345">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bobspizza.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/models/clients/bobspizza.json">
+      <file leaf-file-name="business-view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/business-view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -117,8 +98,8 @@
       <file leaf-file-name="businesses.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/models/businesses.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -161,11 +142,13 @@
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/components/projects/projectsController.js" />
         <option value="$PROJECT_DIR$/app/components/projects/projectsService.js" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/controllers/profilesController.js" />
-        <option value="$PROJECT_DIR$/js/controllers/usersController.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/services/projectsService.js" />
+        <option value="$PROJECT_DIR$/js/models/businesses.json" />
+        <option value="$PROJECT_DIR$/js/services/usersService.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/controllers/usersController.js" />
       </list>
     </option>
   </component>
@@ -262,6 +245,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativconnect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativconnect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -281,6 +278,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativconnect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativconnect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,20 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business-view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="926">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business-details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/layouts/_header.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="390">
@@ -600,22 +601,6 @@
     <entry file="file://$PROJECT_DIR$/js/lib/angular-route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13995">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/users.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/profilesService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -701,14 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/project.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/lib/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04697286" vertical-offset="0" max-vertical-offset="1545">
@@ -725,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06263048" vertical-offset="0" max-vertical-offset="958">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6666665" vertical-offset="251" max-vertical-offset="1215">
@@ -741,25 +710,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/usersService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="958">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/models/clients/bobspizza.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="958">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/businesses.json">
+    <entry file="file://$PROJECT_DIR$/js/models/users.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="958">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -773,10 +734,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/business-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/businesses.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/profilesService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business-view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/usersService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/usersController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09394572" vertical-offset="0" max-vertical-offset="958">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43841335" vertical-offset="0" max-vertical-offset="990">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

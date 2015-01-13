@@ -1,9 +1,14 @@
 [{
+    "id":1,
     "businessId": "bobspizza",
     "businessname": "Bobs Pizza",
+    "username":"bobpizza",
+    "email": "bobspizze@gmail.com",
+    "password": "icekr3am",
     "city": "Miami",
     "state": "FL",
     "website": "www.bobspizza.com",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut augue vitae quam vehicula tincidunt. Integer dictum condimentum arcu at pellentesque.",
     "profilepic": "",
     "categories": [
         "Food",
@@ -11,14 +16,20 @@
         "Yummy"
     ]
 }, {
+    "id":2,
     "businessId": "naughtydog",
     "businessname": "Naughty Dog",
+    "username":"naughtydog",
+    "email": "naughty@gmail.com",
+    "password": "icekr3am",
     "city": "Los Angeles",
     "state": "CA",
     "website": "www.naughtydog.com",
     "profilepic": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut augue vitae quam vehicula tincidunt. Integer dictum condimentum arcu at pellentesque.",
     "categories": [
         "Video Games",
         "Games"
     ]
 }]
+
