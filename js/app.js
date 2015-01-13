@@ -12,7 +12,7 @@ myApp.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
         when('/users', {
-            templateUrl: 'app/views/users-view.html',
+            templateUrl: 'views/users-view.html',
             controller: 'ViewUsersController'
         }).
         when('/users/:userId', {
@@ -28,17 +28,20 @@ myApp.config(['$routeProvider',
             controller: 'BusinessProfileController'
         }).
         when('/projects', {
-            templateUrl: 'jobs-view.html',
-            controller: 'ViewProjectsController'
+            templateUrl: 'views/jobs-view.html',
+            controller: 'ProjectsController'
         }).
         when('/projects/:businessId/:projectId', {
             templateUrl: 'business-details.html',
             controller: 'ViewProjectController'
         }).
         when('/settings', {
-            templateUrl: 'settings-view.html',
+            templateUrl: 'views/settings-view.html',
             controller: 'ViewSettingsController'
-        }).otherwise({
+        }).when('/manage', {
+                templateUrl: 'views/manage-view.html',
+                controller: 'ViewProjectsController'
+            }).otherwise({
             redirectTo: '/users'
         });
 

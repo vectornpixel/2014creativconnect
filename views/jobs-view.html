@@ -1,0 +1,25 @@
+    <div class="container">
+
+            <header class="title">
+                 <h2><b>Active Projects</b></h2>
+            </header>
+
+            <h4>LOCATION: MICHIGAN - <a href="#">CHANGE LOCATION</a></h4>
+    
+          <div class="row">
+            <div class="col-md-3"  ng-repeat="jobs in projectsinfo">
+                 <div class="job text-center">
+                     <h3>{{jobs.businessname}}</h3>
+                     <p>{{jobs.city}}{{jobs.state}}</p>
+                    <h4>{{jobs.service}}</h4>
+                    <p>{{jobs.description}}</p>
+                     <hr>
+                     <button class="removebtn btn btn-default">VIEW PROJECT</button>
+            </div>
+            </div>
+
+          </div>
+      
+
+    </div> <!-- /container -->
+

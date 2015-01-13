@@ -1,0 +1,1 @@
+myApp.factory("ProjectData",function(t){return t.get("js/models/projects.json")});

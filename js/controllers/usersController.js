@@ -1,10 +1,19 @@
 
+myApp.controller("ProjectsController", function($scope,ProjectData){
+
+    ProjectData.success(function(data) {
+        $scope.projectsinfo = data;
+    });
+
+
+});
+
 
 // Declare View Users Controller
 
 myApp.controller('ViewUsersController', ['$scope', '$http',
     function($scope, $http) {
-        $http.get('app/data/users.json').success(function(data) {
+        $http.get('js/models/users.json').success(function(data) {
             $scope.usersinfo = data;
         });
     }
@@ -14,7 +23,7 @@ myApp.controller('ViewUsersController', ['$scope', '$http',
 // Declare View User Porfile Controller
 myApp.controller('UserProfileController', ['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http) {
-        $http.get('app/data/users/' + $routeParams.userId + '.json').success(function(data) {
+        $http.get('js/models/users/' + $routeParams.userId + '.json').success(function(data) {
             $scope.userinfo = data;
         });
 
@@ -26,7 +35,7 @@ myApp.controller('UserProfileController', ['$scope', '$routeParams', '$http',
 
 myApp.controller('ViewBusinessController', ['$scope', '$http',
     function($scope, $http) {
-        $http.get('app/data/businesses.json').success(function(data) {
+        $http.get('js/models/businesses.json').success(function(data) {
             $scope.clientsinfo = data;
         });
     }
@@ -36,7 +45,7 @@ myApp.controller('ViewBusinessController', ['$scope', '$http',
 // Declare View Businesses Profile Controller
 myApp.controller('BusinessProfileController', ['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http) {
-        $http.get('app/data/clients/' + $routeParams.businessId + '.json').success(function(data) {
+        $http.get('js/models/clients/' + $routeParams.businessId + '.json').success(function(data) {
             $scope.clientinfo = data;
         });
 
