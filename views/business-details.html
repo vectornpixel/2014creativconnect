@@ -1,0 +1,61 @@
+<div class="container">
+
+        <div class="userinfo">
+            <div class="usercontact">
+                <div class="userphoto">
+                    <img src="../images/user-photo.jpg">
+                 </div>
+                <div class="usericons"> 
+                    <h4>OPEN</h4>
+                    <div class="icons2">
+                   <h4><img src="../images/icon-mail.png"></h4>
+                   <h4><img src="../images/icon-views2.png"> 21</h4>
+
+                    
+                    </div>
+                 </div>
+            </div>
+            <div class="userbio">
+                <h5>{{clientinfo.businessname}}</h5>
+                <h5>{{clientinfo.city}}{{clientinfo.state}}</h5>
+                <a href="#">{{clientinfo.website}}</a>
+                <p><b>Industry: </b> </p>
+                <li ng-repeat="service in clientinfo.categories">{{service}}</li>
+                <p>{{clientinfo.description}}</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+      <!-- Example row of columns -->
+      <hr>
+            <ul class="category center2">
+                
+             
+              <li class="mainbtn"><a href="#">Portfolio</a></li>
+              <li class="mainbtn"><a href="#">Projects</a></li>
+
+  
+            </ul>
+   <div class="clearfix"></div>
+   <div class="row">
+        <div class="col-md-6" ng-repeat="project in clientinfo.projects">
+            <ul class="job">
+                <li class="job-info">
+                    <h4>{{project.service}}</h4>
+                    <p>{{project.description}}</p>
+                </li>
+                <li class="pull-right"> 
+              
+                    <span class="applybtn"><a href="#">APPLY</a></span>
+                  
+                </li>
+            </ul>
+             
+        </div>
+
+    </div>
+      
+
+
+
+    </div> <!-- /container -->
+

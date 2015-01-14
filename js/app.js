@@ -20,11 +20,11 @@ myApp.config(['$routeProvider',
             controller: 'UserProfileController'
         }).
         when('/business', {
-            templateUrl: 'business-view.html',
+            templateUrl: 'views/business-view.html',
             controller: 'BusinessController'
         }).
         when('/business/:businessId', {
-            templateUrl: 'business-details.html',
+            templateUrl: 'views/business-details.html',
             controller: 'BusinessProfileController'
         }).
         when('/projects', {

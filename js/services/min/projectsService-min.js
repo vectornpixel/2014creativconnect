@@ -1,1 +1,1 @@
-myApp.factory("ProjectData",function(s){return s.get("js/models/projects.json")}),myApp.factory("BusinessData",function(s){return s.get("js/models/businesses.json")});
+myApp.constant("projectUrl","http://localhost:5500/projects"),myApp.factory("ProjectData",function(t,o){return t.get(o)}),myApp.constant("dataUrl","http://localhost:5500/businesses"),myApp.factory("BusinessData",function(t,o){return t.get(o)});

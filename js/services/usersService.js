@@ -1,9 +1,12 @@
 // Declare View Projects Controller
-myApp.factory("ProjectData", function($http){
-    return $http.get('js/models/projects.json');
+myApp.constant("projectUrl", "http://localhost:5500/projects");
+myApp.factory("ProjectData", function($http, projectUrl){
+    return $http.get(projectUrl);
 
 });
-myApp.factory("BusinessData", function($http){
-    return $http.get('js/models/businesses.json');
+myApp.constant("dataUrl", "http://localhost:5500/businesses");
+myApp.factory("BusinessData", function($http, dataUrl){
+
+    return $http.get(dataUrl);
 
 });
