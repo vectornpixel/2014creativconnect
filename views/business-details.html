@@ -16,12 +16,12 @@
                  </div>
             </div>
             <div class="userbio">
-                <h5>{{clientinfo.businessname}}</h5>
-                <h5>{{clientinfo.city}}{{clientinfo.state}}</h5>
-                <a href="#">{{clientinfo.website}}</a>
+                <h5>{{business.name}}</h5>
+                <h5>{{business.city}} {{business.state}}</h5>
+                <a href="#">{{clientsinfo.website}}</a>
                 <p><b>Industry: </b> </p>
-                <li ng-repeat="service in clientinfo.categories">{{service}}</li>
-                <p>{{clientinfo.description}}</p>
+                <li ng-repeat="service in business.services">{{service}}</li>
+                <p>{{business.bio}}</p>
             </div>
         </div>
         <div class="clearfix"></div>
